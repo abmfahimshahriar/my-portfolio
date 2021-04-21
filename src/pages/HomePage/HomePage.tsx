@@ -5,6 +5,9 @@ import {
   ShortDescription,
   BroadDescription,
   TechSkills,
+  WorkExperience,
+  PersonalProjectInfo,
+  ProjectList,
 } from "../../components";
 
 const HomePage = () => {
@@ -15,6 +18,11 @@ const HomePage = () => {
       <BroadDescription />
       <div className="center-items">
         <TechSkills />
+        <WorkExperience />
+      </div>
+      <PersonalProjectInfo />
+      <div className="center-items">
+        <ProjectList />
       </div>
     </div>
   );

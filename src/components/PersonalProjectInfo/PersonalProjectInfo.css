@@ -1,0 +1,15 @@
+.personal-project-info-wrapper {
+  width: 100%;
+  background-color: #7510f7;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 56px; */
+}
+
+.project-info-subtitle {
+  width: 50%;
+  text-align: center;
+}
