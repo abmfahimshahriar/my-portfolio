@@ -1,5 +1,5 @@
 import React from "react";
-import { techSkillsData } from "../../data/techSkills";
+import { techSkillsData } from "../../data/techSkillsData";
 import "./TechSkills.css";
 import CodeIcon from "@material-ui/icons/Code";
 import CropFreeIcon from "@material-ui/icons/CropFree";
