@@ -3,6 +3,12 @@
   background-color: #f7f3eb;
 }
 
+.center-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /* @media only screen and (max-width: 600px) {
   .home-page-wrapper {
     margin-top: 56px;

@@ -1,6 +1,5 @@
 import React from "react";
 import "./BroadDescription.css";
-import { TechSkills } from "../../components";
 const BroadDescription = () => {
   return (
     <div className="broad-desc-wrapper">
@@ -15,7 +14,6 @@ const BroadDescription = () => {
           time.
         </h2>
       </div>
-      <TechSkills />
     </div>
   );
 };
