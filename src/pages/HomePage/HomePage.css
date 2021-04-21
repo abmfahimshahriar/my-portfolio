@@ -1,5 +1,6 @@
 .home-page-wrapper {
   min-height: 100vh;
+  background-color: #f7f3eb;
 }
 
 /* @media only screen and (max-width: 600px) {
