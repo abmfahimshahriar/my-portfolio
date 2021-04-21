@@ -1,0 +1,8 @@
+.short-desc-wrapper {
+    width: 100%;
+    background-color: #f7f3eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
