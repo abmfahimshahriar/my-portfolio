@@ -18,8 +18,8 @@ const TechSkills = () => {
           </div>
           <div>
             <ul>
-              {techSkillsData[0].Value.map((item) => (
-                <li>{item}</li>
+              {techSkillsData[0].Value.map((item, idx) => (
+                <li key={idx}>{item}</li>
               ))}
             </ul>
           </div>
@@ -33,8 +33,8 @@ const TechSkills = () => {
           </div>
           <div>
             <ul>
-              {techSkillsData[0].Value.map((item) => (
-                <li>{item}</li>
+              {techSkillsData[0].Value.map((item, idx) => (
+                <li key={idx}>{item}</li>
               ))}
             </ul>
           </div>
