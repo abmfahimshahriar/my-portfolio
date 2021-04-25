@@ -1,0 +1,21 @@
+.certification-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.certification-card {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  background-color: white;
+  margin: 32px 0;
+  padding: 32px;
+}
+
+.single-certification {
+  display: flex;
+}

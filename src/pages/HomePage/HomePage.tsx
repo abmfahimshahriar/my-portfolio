@@ -8,7 +8,8 @@ import {
   WorkExperience,
   PersonalProjectInfo,
   ProjectList,
-  Education
+  Education,
+  Certification,
 } from "../../components";
 import {
   Link,
@@ -93,7 +94,8 @@ const HomePage = () => {
       <PersonalProjectInfo />
       <div className="center-items">
         <ProjectList />
-        <Education/>
+        <Education />
+        <Certification />
       </div>
     </div>
   );
