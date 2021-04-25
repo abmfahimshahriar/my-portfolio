@@ -18,7 +18,7 @@ const ProjectList = () => {
           <div className="tech-stack">
             {item.TechStack.map((tech, techId) => (
               <Chip
-              style={{marginRight: "4px"}}
+              style={{marginRight: "4px", marginBottom: "4px"}}
                 label={tech}
                 color="primary"
                 variant="outlined"

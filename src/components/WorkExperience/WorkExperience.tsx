@@ -36,10 +36,18 @@ const WorkExperience = () => {
 
             <div className="job-description">
               <AssignmentIcon />
-              <div style={{ marginLeft: "8px" }}>{item.JobDescription}</div>
+              <div style={{ marginLeft: "8px" }}>
+                <ul style={{margin: "0"}}>
+                  {item.JobDescription.map((workItem, idx) => (
+                    <li key={idx}>{workItem}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
             {idx !== WorkExperienceData.length - 1 && (
-              <Divider className="custom-divider" />
+              <div className="custom-divider">
+                <Divider />
+              </div>
             )}
           </div>
         ))}

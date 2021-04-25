@@ -18,12 +18,41 @@
 }
 
 .programming-languages {
-  width: 50%;
+  width: 33%;
   padding: 32px;
   border-right: 1px solid black;
 }
 
 .frameworks {
-  width: 50%;
+  width: 33%;
   padding: 32px;
+  border-right: 1px solid black;
+}
+
+.devtools {
+  width: 33%;
+  padding: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  .tech-skills-card {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .devtools {
+    width: 83%;
+  }
+
+  .programming-languages {
+    width: 83%;
+    border-right: none;
+    border-bottom: 1px solid black;
+  }
+
+  .frameworks {
+    width: 83%;
+    border-right: none;
+    border-bottom: 1px solid black;
+  }
 }

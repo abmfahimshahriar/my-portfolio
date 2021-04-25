@@ -3,6 +3,7 @@ import { techSkillsData } from "../../data/techSkillsData";
 import "./TechSkills.css";
 import CodeIcon from "@material-ui/icons/Code";
 import CropFreeIcon from "@material-ui/icons/CropFree";
+import SettingsIcon from '@material-ui/icons/Settings';
 
 const TechSkills = () => {
   return (
@@ -33,7 +34,22 @@ const TechSkills = () => {
           </div>
           <div>
             <ul>
-              {techSkillsData[0].Value.map((item, idx) => (
+              {techSkillsData[1].Value.map((item, idx) => (
+                <li key={idx}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div className="devtools">
+          <div>
+            <SettingsIcon fontSize="large" />
+          </div>
+          <div>
+            <h3>{techSkillsData[2].Name}</h3>
+          </div>
+          <div>
+            <ul>
+              {techSkillsData[2].Value.map((item, idx) => (
                 <li key={idx}>{item}</li>
               ))}
             </ul>

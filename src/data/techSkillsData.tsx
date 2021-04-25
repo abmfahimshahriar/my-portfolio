@@ -21,4 +21,14 @@ export const techSkillsData = [
             "Firebase",
         ]
     },
+    {
+        Name: "Development tools",
+        Value: [
+            "VS Code",
+            "Web Storm",
+            "Visual Studio",
+            "Postman",
+            "Jira"
+        ]
+    },
 ]
