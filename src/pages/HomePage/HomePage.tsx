@@ -84,10 +84,13 @@ const HomePage = () => {
       <Navbar />
 
       <ShortDescription />
-      <BroadDescription />
+      <Element name="" className="full-width">
+        <BroadDescription />
+      </Element>
+
       <div className="center-items">
         <TechSkills />
-        <Element name="workExperience" style={{ width: "100%" }}>
+        <Element name="workExperience" className="full-width">
           <WorkExperience />
         </Element>
       </div>

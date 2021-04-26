@@ -27,6 +27,9 @@ export const techSkillsData = [
             "VS Code",
             "Web Storm",
             "Visual Studio",
+            "RStudio",
+            "Xcode",
+            "Jupyter Notebook",
             "Postman",
             "Jira"
         ]

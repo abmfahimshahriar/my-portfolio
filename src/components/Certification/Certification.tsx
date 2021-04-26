@@ -9,7 +9,7 @@ const Certification = () => {
       <h2>Certification</h2>
       <div className="certification-card">
         {certificationData.map((item, idx) => (
-          <div className="single-certification">
+          <div className="single-certification" key={idx}>
               <CardMembershipIcon />
               {/* <div style={{ marginLeft: "8px" }}>{item.Title}</div> */}
               <a href={item.Link} target="_blank" style={{ marginLeft: "8px" }}>{item.Title}</a>
