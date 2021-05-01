@@ -10,7 +10,8 @@ import {
   ProjectList,
   Education,
   Certification,
-  ExtraCurricular
+  ExtraCurricular,
+  TestScore,
 } from "../../components";
 import {
   Link,
@@ -101,6 +102,7 @@ const HomePage = () => {
         <Education />
         <Certification />
         <ExtraCurricular />
+        <TestScore />
       </div>
     </div>
   );
