@@ -7,6 +7,7 @@ import PersonalProjectInfo from "./PersonalProjectInfo/PersonalProjectInfo";
 import ProjectList from "./ProjectList/ProjectList";
 import Education from "./Education/Education";
 import Certification from "./Certification/Certification";
+import ExtraCurricular from "./ExtraCurricular/ExtraCurricular";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   ProjectList,
   Education,
   Certification,
+  ExtraCurricular,
 };
