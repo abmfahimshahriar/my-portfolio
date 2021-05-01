@@ -1,5 +1,21 @@
 export const projectData = [
     {
+        Title: "Sumi Taskit",
+        Website: "https://www.sumitaskit.com/",
+        TechStack: [
+            "React",
+            "Material UI",
+            "Express.js",
+            "Node.js",
+            "MongoDB",
+        ],
+        Description: [
+            "A project management web application."
+        ],
+        FrontEnd: "https://github.com/abmfahimshahriar/sumi-frontend",
+        BackEnd: "https://github.com/abmfahimshahriar/sumi-backend"
+    },
+    {
         Title: "General Shop",
         Website: "https://general-shop.netlify.app/",
         TechStack: [

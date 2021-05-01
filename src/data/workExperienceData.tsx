@@ -23,8 +23,12 @@ export const WorkExperienceData = [
     Location: "Dhaka, Bangladesh",
     JobDescription:
       [
-        "Worked on Teletalk CBS project and Teletalk CPS project as an Delivery and Operations Engineer",
-        ``
+        `Worked on Teletalk CBS project as an Delivery and Operations Engineer.
+        My daily responsibilities consisted of monitoring the system, attend service request from the customers.
+        Perform RFC on the system according to the SRs.`,
+        `Also worked on Teletalk CPS project for deploying the system into the market.
+        I worked directly with the customer at their premise and integrated the system accordingly
+        to their requirement.`
       ]
   },
 ];
