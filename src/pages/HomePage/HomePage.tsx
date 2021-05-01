@@ -12,6 +12,7 @@ import {
   Certification,
   ExtraCurricular,
   TestScore,
+  Footer,
 } from "../../components";
 import {
   Link,
@@ -104,6 +105,7 @@ const HomePage = () => {
         <ExtraCurricular />
         <TestScore />
       </div>
+      <Footer />
     </div>
   );
 };

@@ -9,6 +9,8 @@ import Education from "./Education/Education";
 import Certification from "./Certification/Certification";
 import ExtraCurricular from "./ExtraCurricular/ExtraCurricular";
 import TestScore from "./TestScore/TestScore";
+import Footer from "./Footer/Footer";
+
 export {
   Navbar,
   ShortDescription,
@@ -21,4 +23,5 @@ export {
   Certification,
   ExtraCurricular,
   TestScore,
+  Footer,
 };
