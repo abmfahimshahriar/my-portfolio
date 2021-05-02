@@ -87,25 +87,45 @@ const HomePage = () => {
       <Navbar />
 
       <ShortDescription />
-      <Element name="" className="full-width">
+      <Element name="about" className="full-width">
         <BroadDescription />
       </Element>
 
       <div className="center-items">
-        <TechSkills />
+        <Element name="techSkills" className="full-width">
+          <TechSkills />
+        </Element>
+
         <Element name="workExperience" className="full-width">
           <WorkExperience />
         </Element>
       </div>
-      <PersonalProjectInfo />
+
+      <Element name="personalProjects" className="full-width">
+        <PersonalProjectInfo />
+      </Element>
       <div className="center-items">
         <ProjectList />
-        <Education />
-        <Certification />
-        <ExtraCurricular />
-        <TestScore />
+
+        <Element name="education" className="full-width">
+          <Education />
+        </Element>
+
+        <Element name="certificaiton" className="full-width">
+          <Certification />
+        </Element>
+
+        <Element name="extraCurricular" className="full-width">
+          <ExtraCurricular />
+        </Element>
+
+        <Element name="testScores" className="full-width">
+          <TestScore />
+        </Element>
       </div>
-      <Footer />
+      <Element name="contact" className="full-width">
+        <Footer />
+      </Element>
     </div>
   );
 };
