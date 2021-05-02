@@ -10,6 +10,7 @@ import Certification from "./Certification/Certification";
 import ExtraCurricular from "./ExtraCurricular/ExtraCurricular";
 import TestScore from "./TestScore/TestScore";
 import Footer from "./Footer/Footer";
+import Sidebar from "./Sidebar/Sidebar";
 
 export {
   Navbar,
@@ -24,4 +25,5 @@ export {
   ExtraCurricular,
   TestScore,
   Footer,
+  Sidebar,
 };
