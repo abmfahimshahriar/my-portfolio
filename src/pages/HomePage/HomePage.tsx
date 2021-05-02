@@ -15,61 +15,52 @@ import {
   Footer,
 } from "../../components";
 import {
-  Link,
   Element,
   Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
 } from "react-scroll";
-import Button from "@material-ui/core/Button";
 
 const HomePage = () => {
   useEffect(() => {
-    Events.scrollEvent.register("begin", function () {
-      console.log("begin", arguments);
-    });
+    Events.scrollEvent.register("begin", function () {});
 
-    Events.scrollEvent.register("end", function () {
-      console.log("end", arguments);
-    });
+    Events.scrollEvent.register("end", function () {});
   }, []);
 
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
+  // const scrollToTop = () => {
+  //   scroll.scrollToTop();
+  // };
 
-  const scrollTo = () => {
-    scroller.scrollTo("scroll-to-element", {
-      duration: 800,
-      delay: 0,
-      smooth: "easeInOutQuart",
-    });
-  };
+  // const scrollTo = () => {
+  //   scroller.scrollTo("scroll-to-element", {
+  //     duration: 800,
+  //     delay: 0,
+  //     smooth: "easeInOutQuart",
+  //   });
+  // };
 
-  const scrollToWithContainer = () => {
-    let goToContainer = new Promise<void>((resolve, reject) => {
-      Events.scrollEvent.register("end", () => {
-        resolve();
-        Events.scrollEvent.remove("end");
-      });
+  // const scrollToWithContainer = () => {
+  //   let goToContainer = new Promise<void>((resolve, reject) => {
+  //     Events.scrollEvent.register("end", () => {
+  //       resolve();
+  //       Events.scrollEvent.remove("end");
+  //     });
 
-      scroller.scrollTo("scroll-container", {
-        duration: 800,
-        delay: 0,
-        smooth: "easeInOutQuart",
-      });
-    });
+  //     scroller.scrollTo("scroll-container", {
+  //       duration: 800,
+  //       delay: 0,
+  //       smooth: "easeInOutQuart",
+  //     });
+  //   });
 
-    goToContainer.then(() =>
-      scroller.scrollTo("scroll-container-second-element", {
-        duration: 800,
-        delay: 0,
-        smooth: "easeInOutQuart",
-        containerId: "scroll-container",
-      })
-    );
-  };
+  //   goToContainer.then(() =>
+  //     scroller.scrollTo("scroll-container-second-element", {
+  //       duration: 800,
+  //       delay: 0,
+  //       smooth: "easeInOutQuart",
+  //       containerId: "scroll-container",
+  //     })
+  //   );
+  // };
 
   useEffect(() => {
     window.addEventListener("mousemove", () => {});

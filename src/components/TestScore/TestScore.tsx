@@ -1,7 +1,5 @@
 import React from "react";
 import "./TestScore.css";
-import ArrowRightIcon from '@material-ui/icons/ArrowRight';
-import { extraCurricularData } from "../../data/extraCurricularData";
 
 const TestScore = () => {
     return (

@@ -13,7 +13,7 @@ const ProjectList = () => {
         <div className="project-card" key={itemId}>
           <div className="project-name">{item.Title}</div>
           <div className="project-url">
-            <a href={item.Website} target="_blank">{item.Website}</a>
+            <a href={item.Website} target="_blank" rel="noreferrer">{item.Website}</a>
           </div>
           <div className="tech-stack">
             {item.TechStack.map((tech, techId) => (

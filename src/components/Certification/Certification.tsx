@@ -12,7 +12,7 @@ const Certification = () => {
           <div className="single-certification" key={idx}>
               <CardMembershipIcon />
               {/* <div style={{ marginLeft: "8px" }}>{item.Title}</div> */}
-              <a href={item.Link} target="_blank" style={{ marginLeft: "8px" }}>{item.Title}</a>
+              <a href={item.Link} target="_blank" rel="noreferrer" style={{ marginLeft: "8px" }}>{item.Title}</a>
           </div>
         ))}
       </div>

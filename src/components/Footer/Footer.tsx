@@ -20,11 +20,11 @@ const Footer = () => {
             </div>
             <div className="contact-item">
                 <LinkedInIcon style={{marginRight: "16px"}}/>
-                <a href={footerData.LinkedIn} target="_blank" style={{color: "white"}}>Fahim Shahriar</a>
+                <a href={footerData.LinkedIn} target="_blank" rel="noreferrer" style={{color: "white"}}>Fahim Shahriar</a>
             </div>
             <div className="contact-item">
                 <GitHubIcon style={{marginRight: "16px"}}/>
-                <a href={footerData.Github} target="_blank" style={{color: "white"}}>abmfahimshahriar</a>
+                <a href={footerData.Github} target="_blank" rel="noreferrer" style={{color: "white"}}>abmfahimshahriar</a>
             </div>
         </div>
     )
