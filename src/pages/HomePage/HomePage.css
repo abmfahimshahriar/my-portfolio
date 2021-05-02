@@ -1,6 +1,7 @@
 .home-page-wrapper {
   min-height: 100vh;
   background-color: #f7f3eb;
+  margin-top: 64px;
 }
 
 .center-items {

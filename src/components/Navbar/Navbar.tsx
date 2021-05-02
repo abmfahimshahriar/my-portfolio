@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Toolbar className="navbar-main">
           <IconButton color="inherit" onClick={toogleSidebar}>
             <MenuIcon />

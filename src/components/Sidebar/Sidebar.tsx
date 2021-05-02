@@ -15,6 +15,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import InboxIcon from "@material-ui/icons/MoveToInbox";
 import MailIcon from "@material-ui/icons/Mail";
 import clsx from "clsx";
+import { Link } from "react-scroll";
 
 const drawerWidth = 240;
 const { innerWidth: width } = window;
@@ -54,26 +55,24 @@ const Sidebar: React.FC<Props> = ({ sidebarOpen }) => {
       >
         <Divider />
         <List>
-          {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-            <ListItem button key={text}>
+          <Link
+            to="workExperience"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="link-item"
+          >
+            <ListItem button key="work experience">
               <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                <InboxIcon />
               </ListItemIcon>
-              <ListItemText primary={text} />
+              <ListItemText primary="work experience" />
             </ListItem>
-          ))}
+          </Link>
+
+          
         </List>
         <Divider />
-        <List>
-          {["All mail", "Trash", "Spam"].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
-        </List>
       </Drawer>
     </div>
   );
