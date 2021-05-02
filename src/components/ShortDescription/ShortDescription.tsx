@@ -2,6 +2,8 @@ import React from 'react';
 import "./ShortDescription.css";
 import my_animated_img from "../../Utilities/Images/my_animated_image.png";
 import { ShortDescriptionData } from '../../data/shortDescriptionData';
+import deskImg from "../../Utilities/Images/desk.jpg";
+
 const ShortDescription = () => {
     return (
         <div className="short-desc-wrapper">
@@ -10,6 +12,10 @@ const ShortDescription = () => {
 
             <div>
                 <img className="my-animated-img" src={my_animated_img} alt="my_animated"/>
+            </div>
+
+            <div className="desk-img-wrapper">
+                <img className="desk-img" src={deskImg} alt="my_animated"/>
             </div>
         </div>
     )

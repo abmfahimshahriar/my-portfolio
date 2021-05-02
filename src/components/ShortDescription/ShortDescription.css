@@ -12,3 +12,12 @@
     border-radius: 50%;
     object-fit: contain;
 }
+
+.desk-img-wrapper {
+    width: 70%;
+}
+.desk-img {
+    width: 100%;
+    /* height: 300px; */
+    object-fit: cover;
+}
