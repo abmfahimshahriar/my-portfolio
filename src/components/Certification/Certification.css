@@ -19,3 +19,9 @@
 .single-certification {
   display: flex;
 }
+
+@media only screen and (max-width: 600px) {
+  .certification-card {
+    width: 94%;
+  }
+}

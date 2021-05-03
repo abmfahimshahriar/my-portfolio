@@ -36,22 +36,22 @@
 
 @media only screen and (max-width: 600px) {
   .tech-skills-card {
-    width: 100%;
+    width: 94%;
     flex-direction: column;
   }
 
   .devtools {
-    width: 83%;
+    width: 100%;
   }
 
   .programming-languages {
-    width: 83%;
+    width: 100%;
     border-right: none;
     border-bottom: 1px solid black;
   }
 
   .frameworks {
-    width: 83%;
+    width: 100%;
     border-right: none;
     border-bottom: 1px solid black;
   }

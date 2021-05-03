@@ -22,3 +22,14 @@
   width: 50%;
   text-align: center;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .desc-paragraph {
+    width: 100%
+  }
+
+  .broad-desc-wrapper {
+    padding: 16px;
+  }
+}

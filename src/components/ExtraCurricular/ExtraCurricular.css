@@ -1,24 +1,29 @@
 .extra-curricular-wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.extra-curricular-card {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  background-color: white;
+  margin: 32px 0;
+  padding: 32px;
+}
+
+.single-extra-curricular {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
   .extra-curricular-card {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 24px;
-    background-color: white;
-    margin: 32px 0;
-    padding: 32px;
+    width: 94%;
   }
-  
-  .single-extra-curricular {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
+}

@@ -50,3 +50,10 @@
 .custom-divider {
     margin: 16px 0;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .work-experience-card {
+    width: 94%;
+  }
+}

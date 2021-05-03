@@ -6,10 +6,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding-bottom: 56px; */
 }
 
 .project-info-subtitle {
   width: 50%;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .personal-project-info-wrapper {
+    padding: 16px;
+  }
+
+  .project-info-subtitle {
+    width: 100%;
+  }
 }

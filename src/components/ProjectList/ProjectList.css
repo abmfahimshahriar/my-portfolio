@@ -16,7 +16,7 @@
   background-color: white;
   margin: 32px;
   padding: 32px;
-  width: 300px;
+  width: 30%;
 }
 
 .project-name {
@@ -31,8 +31,23 @@
 
 .tech-stack {
   margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-description {
   margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-list-wrapper {
+    width: 100%
+  }
+
+  .project-card {
+    width: 94%;
+  }
 }
