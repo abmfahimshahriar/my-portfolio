@@ -42,7 +42,7 @@
   margin-bottom: 8px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 920px) {
   .project-list-wrapper {
     width: 100%
   }
