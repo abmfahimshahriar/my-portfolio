@@ -2,7 +2,7 @@ import React from 'react';
 import "./ShortDescription.css";
 import my_animated_img from "../../Utilities/Images/my_animated_image.png";
 import { ShortDescriptionData } from '../../data/shortDescriptionData';
-import deskImg from "../../Utilities/Images/desk.jpg";
+import deskImg from "../../Utilities/Images/desk1.jpg";
 
 const ShortDescription = () => {
     return (
