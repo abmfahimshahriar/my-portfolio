@@ -1,23 +1,29 @@
 .short-desc-wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .my-animated-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: contain;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: contain;
 }
 
 .desk-img-wrapper {
-    width: 70%;
+  width: 70%;
 }
 .desk-img {
+  width: 100%;
+  /* height: 300px; */
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 920px) {
+  .desk-img-wrapper {
     width: 100%;
-    /* height: 300px; */
-    object-fit: cover;
+  }
 }
