@@ -3,6 +3,7 @@ export const techSkillsData = [
         Name: "Programming Languages",
         Value: [
             "Javascript",
+            "Typescript",
             "Node.js",
             "Python",
             "C#",
