@@ -5,6 +5,7 @@ import "./ProjectList.css";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import Tooltip from "@material-ui/core/Tooltip";
 import { projectData } from "../../data/projectData";
+import YouTubeIcon from "@material-ui/icons/YouTube";
 
 const ProjectList = () => {
   return (
@@ -13,12 +14,14 @@ const ProjectList = () => {
         <div className="project-card" key={itemId}>
           <div className="project-name">{item.Title}</div>
           <div className="project-url">
-            <a href={item.Website} target="_blank" rel="noreferrer">{item.Website}</a>
+            <a href={item.Website} target="_blank" rel="noreferrer">
+              {item.Website}
+            </a>
           </div>
           <div className="tech-stack">
             {item.TechStack.map((tech, techId) => (
               <Chip
-              style={{marginRight: "4px", marginBottom: "4px"}}
+                style={{ marginRight: "4px", marginBottom: "4px" }}
                 label={tech}
                 color="primary"
                 variant="outlined"
@@ -33,7 +36,18 @@ const ProjectList = () => {
               ))}
             </ul>
           </div>
-          <div className="git-links">
+          <div>
+            <Tooltip title="Preview">
+              <IconButton>
+                <a
+                  href={item.VideoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <YouTubeIcon />
+                </a>
+              </IconButton>
+            </Tooltip>
             <Tooltip title="Front-end">
               <IconButton>
                 <a
@@ -45,17 +59,19 @@ const ProjectList = () => {
                 </a>
               </IconButton>
             </Tooltip>
-            <Tooltip title="Back-end">
-              <IconButton>
-              <a
-                  href={item.BackEnd}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <GitHubIcon />
-                </a>
-              </IconButton>
-            </Tooltip>
+            {item.BackEnd && (
+              <Tooltip title="Back-end">
+                <IconButton>
+                  <a
+                    href={item.BackEnd}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <GitHubIcon />
+                  </a>
+                </IconButton>
+              </Tooltip>
+            )}
           </div>
         </div>
       ))}
