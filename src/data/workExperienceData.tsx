@@ -2,7 +2,7 @@ export const WorkExperienceData = [
   {
     Company: "Secure Link Services AG",
     JobRole: "Software Engineer",
-    Duration: "September 2020 -- Present",
+    Duration: "September 2020 -- April 2021",
     Location: "Dhaka, Bangladesh",
     JobDescription:
       [
