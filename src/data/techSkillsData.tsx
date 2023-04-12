@@ -4,7 +4,6 @@ export const techSkillsData = [
         Value: [
             "Javascript",
             "Typescript",
-            "Node.js",
             "Python",
             "C#",
             "Swift",
@@ -14,12 +13,16 @@ export const techSkillsData = [
     {
         Name: "Frameworks and other technologies",
         Value: [
-            "Angular",
             "React",
+            "NestJS",
+            "Node.js",
+            "Angular",
             "Express.js",
             "Redux",
             "ASP.NET core",
             "Firebase",
+            "Microfrontend",
+            "Docker",
         ]
     },
     {
@@ -32,7 +35,9 @@ export const techSkillsData = [
             "Xcode",
             "Jupyter Notebook",
             "Postman",
-            "Jira"
+            "Jira",
+            "GitHub",
+            "GitLab",
         ]
     },
 ]
